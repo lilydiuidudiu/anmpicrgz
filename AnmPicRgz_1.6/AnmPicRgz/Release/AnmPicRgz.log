@@ -1,0 +1,45 @@
+﻿生成启动时间为 2015/1/22 20:13:12。
+     1>项目“D:\workspace_lzj\AnmPicRgz_1.6\AnmPicRgz\AnmPicRgz.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\动物照片识别.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\动物照片识别.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt AnmPicRgz.cpp AnmPicRgzDlg.cpp ButtonClickFunc.cpp imgShow.cpp threadbranch.cpp
+         AnmPicRgz.cpp
+         AnmPicRgzDlg.cpp
+         ButtonClickFunc.cpp
+         imgShow.cpp
+     1>imgShow.cpp(119): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>imgShow.cpp(119): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>imgShow.cpp(121): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>imgShow.cpp(121): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+         threadbranch.cpp
+       ResourceCompile:
+         所有输出均为最新。
+       Link:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\workspace_lzj\AnmPicRgz_1.6\Release\动物照片识别.exe" /INCREMENTAL:NO /NOLOGO opencv_calib3d244.lib opencv_contrib244.lib opencv_core244.lib opencv_features2d244.lib opencv_flann244.lib opencv_gpu244.lib opencv_highgui244.lib opencv_imgproc244.lib opencv_legacy244.lib opencv_ml244.lib opencv_nonfree244.lib opencv_objdetect244.lib opencv_photo244.lib opencv_stitching244.lib opencv_ts244.lib opencv_video244.lib opencv_videostab244.lib /MANIFEST /ManifestFile:"Release\动物照片识别.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\workspace_lzj\AnmPicRgz_1.6\Release\动物照片识别.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\workspace_lzj\AnmPicRgz_1.6\Release\动物照片识别.lib" /MACHINE:X86 Release\AnmPicRgz.res
+         Release\AboutDlg.obj
+         Release\AnmPicRgz.obj
+         Release\AnmPicRgzDlg.obj
+         Release\ButtonClickFunc.obj
+         Release\ConfirmDlg.obj
+         Release\Histogram.obj
+         Release\imgShow.obj
+         Release\InitDlg.obj
+         Release\InitialBlock.obj
+         Release\InitialFile.obj
+         Release\threadbranch.obj
+         Release\stdafx.obj
+         正在生成代码
+         已完成代码的生成
+         AnmPicRgz.vcxproj -> D:\workspace_lzj\AnmPicRgz_1.6\Release\动物照片识别.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"D:\workspace_lzj\AnmPicRgz_1.6\Release\动物照片识别.exe.manifest" /manifest "Release\动物照片识别.exe.intermediate.manifest" "D:\Program Files\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“Release\动物照片识别.unsuccessfulbuild”。
+         正在对“Release\动物照片识别.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\workspace_lzj\AnmPicRgz_1.6\AnmPicRgz\AnmPicRgz.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:19.13
